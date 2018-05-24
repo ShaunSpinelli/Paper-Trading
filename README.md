@@ -1,4 +1,6 @@
-# A Paper Trading App
+# Paper Trading 
+
+[View Site](https://shaunspinelli.github.io/Paper-Trading/)
 
 A Simple paper trading application to practice buying and selling stocks with out using real money.
 
@@ -6,9 +8,11 @@ A Simple paper trading application to practice buying and selling stocks with ou
 
 1) Handling data from API requests
 
-## To DO
+## To Do
 
-1) Everything else
+1) Outline a plan
+
+2) Everything else
 
 ## Technologies
 
