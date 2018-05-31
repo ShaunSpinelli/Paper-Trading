@@ -1,0 +1,25 @@
+{
+  "name": "papertrade",
+  "version": "1.0.0",
+  "description": "A paper trading web application",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaunSpinelli/Paper-Trading.git"
+  },
+  "author": "Shaun Spinelli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShaunSpinelli/Paper-Trading/issues"
+  },
+  "homepage": "https://github.com/ShaunSpinelli/Paper-Trading#readme",
+  "devDependencies": {
+    "jest": "^23.1.0"
+  }
+}
