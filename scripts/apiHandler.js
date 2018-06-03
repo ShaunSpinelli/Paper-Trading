@@ -1,18 +1,18 @@
 // handles AJAX requests to IEX Trading
 
 
-// Symbols and names
 function AjaxHandler(url, callback) {
-
+    
     fetch(url)
-        .then(response => response.json())
-        .then(response => callback(response))
-        .catch(err => {
-            alert(err)
-        })
+    .then(response => response.json())
+    .then(response => callback(response))
+    .catch(err => {
+        alert(err)
+    })
 }
 
-
+// function for parsing various Ajax requests
+// Symbols and names
 function saveCompanyInfoSymbols(companies){
     // Save company name and symbols to local storage
     const nameSymbol = companies.map(item => {
@@ -24,6 +24,14 @@ function saveCompanyInfoSymbols(companies){
     localStorage.setItem('companySymbols', JSON.stringify(nameSymbol))
 }
 
+// Company Information
+
+//Building url
+
+function buildUrl(requestType,...symbol){
+    const main = 'https://ws-api.iextrading.com/1.0/'
+    const type = requestType
+}
 
 let url = 'https://api.iextrading.com/1.0/ref-data/symbols';
 

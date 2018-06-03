@@ -1,1 +1,0 @@
-// Mocha tests for apiHandler
